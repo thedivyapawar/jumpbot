@@ -1,55 +1,55 @@
 <template>
-     <div class="bg-black text-white block md:flex flex-col justify-center items-center py-4 rounded-t-[25px] md:rounded-t-[50px] mt-5" >
+     <div class="bg-black text-white block md:flex flex-col justify-center items-center py-4 rounded-t-[25px] md:rounded-t-[50px] mt-5 px-3" >
 
-<div class="flex  flex-wrap w-[100%] justify-evenly py-2 md:py-8 ">
+    <div class="flex  flex-wrap w-[100%] justify-evenly py-2 md:py-8 ">
 
-  <div class=" w-[95%] md:w-[30%] flex  flex-col ">
+      <div class=" w-[95%] md:w-[30%] flex  flex-col ">
 
-    <div class="flex items-center gap-3 item-start mt-4 mb-4">
-    <span class=" text:lg md:text-2xl font-bold">Jump<span class=" text:lg md:text-2xl font-bold text-[#01afeb]" >Bot</span></span>
+        <div class="flex items-center gap-3 item-start mt-4 mb-4">
+        <span class=" text:lg md:text-2xl font-bold">Jump<span class=" text:lg md:text-2xl font-bold text-[#01afeb]" >Bot</span></span>
+
+        </div>
+
+        <div class="flex gap-10 md:gap-5 items-end  my-4">
+          <i class="bi bi-instagram px-2 py-1 md:px-3 md:py-2 rounded-full bg-gradient"></i>
+          <i class="bi bi-facebook px-2 py-1 md:px-3 md:py-2 rounded-full bg-gradient"></i>
+          <i class="bi bi-youtube px-2 py-1 md:px-3 md:py-2 rounded-full bg-gradient"></i>
+          <i class="bi bi-twitter-x px-2 py-1 md:px-3 md:py-2 rounded-full bg-gradient"></i>
+        </div>
+        
+      </div>
+
+      <div class=" w-[30%] md:w-[15%] ">
+        <ul>
+          <li class="text-lg md:text-xl font-bold py-1 md:py-2">Solution</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Digital Marketing</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Social Media</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Ads</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">SEO</li>
+        </ul>
+      </div>
+
+      <div class=" w-[30%] md:w-[15%] ">
+          <ul>
+          <li class="text-lg md:text-xl font-bold py-1 md:py-2">Resource</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">News & Media</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Culture</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Blog </li>
+        
+        </ul>
+      </div>
+
+      <div class=" w-[30%] md:w-[15%]">
+          <ul>
+          <li class="text-lg md:text-xl font-bold py-1 md:py-2">Tools</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Pricing</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Compare Us</li>
+          <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Support</li>
+        </ul>
+      </div>
+
 
     </div>
-
-    <div class="flex gap-10 md:gap-5 items-end  my-4">
-      <i class="bi bi-instagram px-2 py-1 md:px-3 md:py-2 rounded-full bg-gradient"></i>
-      <i class="bi bi-facebook px-2 py-1 md:px-3 md:py-2 rounded-full bg-gradient"></i>
-      <i class="bi bi-youtube px-2 py-1 md:px-3 md:py-2 rounded-full bg-gradient"></i>
-      <i class="bi bi-twitter-x px-2 py-1 md:px-3 md:py-2 rounded-full bg-gradient"></i>
-    </div>
-     
-  </div>
-
-  <div class=" w-[30%] md:w-[15%] ">
-    <ul>
-      <li class="text-lg md:text-xl font-bold py-1 md:py-2">Solution</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Digital Marketing</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Social Media</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Ads</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">SEO</li>
-    </ul>
-  </div>
-
-  <div class=" w-[30%] md:w-[15%] ">
-      <ul>
-      <li class="text-lg md:text-xl font-bold py-1 md:py-2">Resource</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">News & Media</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Culture</li>
-       <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Blog </li>
-     
-    </ul>
-  </div>
-
-  <div class=" w-[30%] md:w-[15%]">
-      <ul>
-      <li class="text-lg md:text-xl font-bold py-1 md:py-2">Tools</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Pricing</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Compare Us</li>
-      <li class="pb-1 md:pb-2 text-slate-400 font-base text-xs md:text-lg">Support</li>
-    </ul>
-  </div>
-
-
-</div>
 
   <hr class=" w-[95%] md:w-[90%] mx-auto my-4">
 
