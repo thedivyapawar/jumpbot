@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #010e16;
+    color: white;
+}
+
+
+.btn-animation{
+   transition: 1s ease-in-out;
+}
+
+.btn-animation:hover{
+    transform: scale(0.90);
+}
